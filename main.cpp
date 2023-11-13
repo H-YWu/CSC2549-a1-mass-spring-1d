@@ -21,7 +21,7 @@ Eigen::VectorXd q_dot;
 double mass = 1.0;
 double stiffness = 100.0; 
 double dt = 1e-2; 
-int integrator_type = 0;
+int integrator_type = 3;
 
 bool simulate(igl::opengl::glfw::Viewer & viewer) {
     
